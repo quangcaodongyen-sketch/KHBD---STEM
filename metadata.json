@@ -1,0 +1,6 @@
+{
+  "name": "Soạn Kế Hoạch Bài Dạy STEM GDPT 2018",
+  "description": "Hệ thống chuyên gia hỗ trợ giáo viên xây dựng Kế hoạch bài dạy (Giáo án) STEM chuẩn GDPT 2018 và Công văn 5512 với quy trình 5 bước, tích hợp liên môn và biểu tiêu chí đánh giá chuẩn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

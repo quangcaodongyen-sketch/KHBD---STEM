@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  @page {
+    size: A4 portrait;
+    margin: 20mm 15mm 20mm 30mm; /* Top: 20mm, Right: 15mm, Bottom: 20mm, Left: 30mm theo Nghị định 30/2020/NĐ-CP */
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Be Vietnam Pro', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+
+  @media print {
+    body {
+      background: white !important;
+      color: black !important;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 13pt !important;
+      line-height: 18pt !important;
+    }
+
+    #official-lesson-document {
+      border: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      font-family: 'Times New Roman', Times, serif !important;
+    }
+
+    #official-lesson-document p.doc-paragraph {
+      text-align: justify !important;
+      text-indent: 1.27cm !important;
+      margin-top: 6pt !important;
+      margin-bottom: 6pt !important;
+      line-height: 18pt !important;
+    }
+
+    table {
+      page-break-inside: auto;
+    }
+
+    tr {
+      page-break-inside: avoid;
+      page-break-after: auto;
+    }
+
+    thead {
+      display: table-header-group;
+    }
+
+    .no-print {
+      display: none !important;
+    }
+  }
+}
