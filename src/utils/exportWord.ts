@@ -576,21 +576,21 @@ export function exportLessonToWord(lesson: StemLessonPlan) {
   `).join('')}
   ` : ''}
 
-  <!-- KHỐI CHỮ KÝ PHÊ DUYỆT CHUẨN NGHỊ ĐỊNH 30/2020/NĐ-CP (ĐỒNG HÀNG & RỘNG RÃI) -->
-  <table class="signature-table" style="width: 100%; border-collapse: collapse; margin-top: 14pt; margin-bottom: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
+  <!-- KHỐI CHỮ KÝ PHÊ DUYỆT CHUẨN NGHỊ ĐỊNH 30/2020/NĐ-CP (ĐỒNG HÀNG & RỘNG RÃI ĐỦ ĐỂ KÝ) -->
+  <table class="signature-table" style="width: 100%; border-collapse: collapse; margin-top: 24pt; margin-bottom: 0pt; page-break-inside: avoid; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
     <tr>
-      <td style="width: 50%; text-align: center; vertical-align: top; padding: 0 4pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
-        <div style="font-size: 13.0pt; line-height: 1.15; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">&nbsp;</div>
-        <div style="font-size: 13.0pt; font-weight: bold; text-transform: uppercase; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">TỔ TRƯỞNG CHUYÊN MÔN</div>
+      <td style="width: 50%; text-align: center; vertical-align: top; padding: 0 10pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
+        <div style="font-size: 13.0pt; line-height: 1.25; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">&nbsp;</div>
+        <div style="font-size: 13.0pt; font-weight: bold; text-transform: uppercase; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">TỔ TRƯỞNG CHUYÊN MÔN</div>
         <div style="font-size: 12.0pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">(Ký và ghi rõ họ tên)</div>
-        <div style="height: 55pt;"></div>
+        <div style="height: 85pt; line-height: 85pt; mso-line-height-rule: exactly;">&nbsp;</div>
         <div style="font-size: 13.0pt; font-weight: bold; color: #000000; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">Mai Văn Hùng</div>
       </td>
-      <td style="width: 50%; text-align: center; vertical-align: top; padding: 0 4pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
-        <div style="font-size: 13.0pt; font-style: italic; line-height: 1.15; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${realDateText}</div>
-        <div style="font-size: 13.0pt; font-weight: bold; text-transform: uppercase; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">GIÁO VIÊN SOẠN BÀI</div>
+      <td style="width: 50%; text-align: center; vertical-align: top; padding: 0 10pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">
+        <div style="font-size: 13.0pt; font-style: italic; line-height: 1.25; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${realDateText}</div>
+        <div style="font-size: 13.0pt; font-weight: bold; text-transform: uppercase; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">GIÁO VIÊN SOẠN BÀI</div>
         <div style="font-size: 12.0pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">(Ký và ghi rõ họ tên)</div>
-        <div style="height: 55pt;"></div>
+        <div style="height: 85pt; line-height: 85pt; mso-line-height-rule: exactly;">&nbsp;</div>
         <div style="font-size: 13.0pt; font-weight: bold; color: #000000; margin: 0; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">Nông Thị Nậm</div>
       </td>
     </tr>
