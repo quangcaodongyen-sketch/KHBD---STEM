@@ -605,27 +605,27 @@ export const LessonViewer: React.FC<LessonViewerProps> = ({
 
         {/* Official Signature Blocks */}
         <div className="grid grid-cols-2 gap-8 sm:gap-14 pt-14 mt-8 border-t border-slate-100 text-center font-sans text-xs sm:text-sm print:pt-10 print:mt-6 print:border-none print:break-inside-avoid">
-          <div className="flex flex-col justify-between min-h-[220px]">
+          <div className="flex flex-col justify-between min-h-[280px]">
             <div>
               <div className="h-5"></div>
               <p className="font-bold uppercase text-slate-900 mt-1 tracking-wide">TỔ TRƯỞNG CHUYÊN MÔN</p>
               <p className="italic text-slate-500 text-xs mt-0.5">(Ký và ghi rõ họ tên)</p>
             </div>
-            <div className="h-36 sm:h-44 flex items-center justify-center">
-              {/* Khoảng trống rộng rãi để ký tên và phê duyệt */}
+            <div className="h-52 sm:h-64 flex items-center justify-center">
+              {/* Khoảng trống cực kỳ rộng rãi để ký tên, nhận xét và phê duyệt */}
             </div>
             <div>
               <p className="font-bold text-slate-900 text-sm sm:text-base">Mai Văn Hùng</p>
             </div>
           </div>
-          <div className="flex flex-col justify-between min-h-[220px]">
+          <div className="flex flex-col justify-between min-h-[280px]">
             <div>
               <p className="italic text-slate-600 text-xs h-5 flex items-center justify-center">{realDateText}</p>
               <p className="font-bold uppercase text-slate-900 mt-1 tracking-wide">GIÁO VIÊN SOẠN BÀI</p>
               <p className="italic text-slate-500 text-xs mt-0.5">(Ký và ghi rõ họ tên)</p>
             </div>
-            <div className="h-36 sm:h-44 flex items-center justify-center">
-              {/* Khoảng trống rộng rãi để ký tên và ghi rõ họ tên */}
+            <div className="h-52 sm:h-64 flex items-center justify-center">
+              {/* Khoảng trống cực kỳ rộng rãi để ký tên và ghi rõ họ tên */}
             </div>
             <div>
               <p className="font-bold text-slate-900 text-sm sm:text-base">Nông Thị Nậm</p>
